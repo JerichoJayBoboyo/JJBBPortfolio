@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJBB | Aspiring Web Developer</title>
+    <link rel="stylesheet" href="JJBBportfolio.css">
+    <!-- Google Fonts Embedded  code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+    <!-- Google Fonts Embedded  code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- Google Fonts Embedded  code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <!-- Google Fonts Embedded  code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Fredericka+the+Great&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons Embedded  code-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- SweetAlert Embedded  code-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- FavIcon-->
+    <link rel="icon" href="./octo-logo-xicon.png" type="image/x-icon">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo-container">
+                <div class="logo">JJBB</div>
+            </div>
+    
+            <div class="navs">
+                <div class="nav-links-container" id="nav-links-container">
+                    <a href="#home-section">Home</a><span class="seperator">|</span>
+                    <a href="#about-section">About Me</a><span class="seperator">|</span>
+                    <a href="#projects-section">Projects & Certifications</a><span class="seperator">|</span>
+                    <a href="#contact-section">Contacts</a>
+                </div>
+                <div class="nav-links-btn">
+                    <button class="hamburger-icon" id="hamburger-icon">
+                        <i class="fa-solid fa-bars" id="burger-icon"></i>
+                        <i class="fa-solid fa-xmark" id="close-icon"></i>
+                    </button>
+                </div>
+                <button id="dark-mode-btn" class="dark-mode-btn" alt="Make it Dark">
+                    <div class="icon-container" id="icon-container">
+                        <i id="moon" class="fa-solid fa-moon moon"></i>
+                        <i id="sun" class="fa-solid fa-sun sun"></i>
+                    </div>
+                    <span class="tooltiptext" id="tooltiptext">Go Dark!</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main>
+        <!-- Home Section -->
+
+
+        <section class="home-section" id="home-section">
+            <div class="home-container">
+                <div class="name-cntr">
+                    <h1 class="name-h1 from-left-animation">Jericho Jay Blanco Boboyo</h1>
+                </div>
+
+                <div class="aspiring-cntr">
+
+                    <div class="intro-span appear-animation">
+                        <span class="aspiring-web-dev">Aspiring Web Developer</span>
+                        <span class="introduction">Hi! 👋🏽 I'm Jericho, a passionate and ambitious web developer from Montalban Rizal, Philippines <i class="fa-solid fa-location-pin"></i>.</span>
+                    </div>
+
+                    <div class="cv-btn-cntr">
+                        <a href="JerichoJayBoboyo.pdf" download><button class="download-cv-btn" id="download-cv-btn">Download CV</button></a>
+                    </div>
+
+                    <div class="contact-icons-cntr">
+                        <a href="https://www.facebook.com/JJBB.24" target="_blank" class="contact-icons"><i class="fa-brands fa-square-facebook"></i><span class="contact-icon-name"> Facebook</span></a>
+
+                        <a href="mailto:jerichojay24boboyo@gmail.com" target="_blank" class="contact-icons"><i class="fa-regular fa-envelope"></i><span class="contact-icon-name"> Gmail</span></a>
+
+                        <a href="tel:+639503840558" class="contact-icons"><i class="fa-solid fa-phone"></i><span class="contact-icon-name"> +639503840558</span></a>
+                    </div>
+                </div>
+
+                <div class="tech-stack-cntr">
+                    <h1 class="tech-stack-word">Tech Stack</h1>
+                    <div class="tech-stack-icon-cntr">
+                        <i class="fa-brands fa-html5 html staggered-icon-animation"></i>
+                        <i class="fa-brands fa-css3-alt css staggered-icon-animation"></i>
+                        <i class="fa-brands fa-js js staggered-icon-animation"></i>
+                        <i class="fa-brands fa-sass sass staggered-icon-animation"></i>
+                        <i class="fa-brands fa-bootstrap bootstrap staggered-icon-animation"></i>
+                        <i class="fa-brands fa-node-js node-js staggered-icon-animation"></i>
+                        <i class="fa-brands fa-react react staggered-icon-animation"></i>
+                        <i class="fa-brands fa-php php staggered-icon-animation"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="about-section" id="about-section">
+            <div class="about-content-container">
+                <h1 class="section-title  from-left-animation">About Me</h1>
+                <div class="about-info-container">
+                    <div class="basic-info-cntr">
+                        <h1 class="info-titles">Info</h1>
+                        <span class="info-content">I'm a 24-year-old, self-taught web developer. I spent most of my time honing my skills in developing websites. Programming or developing using programming has attracted my attention since I became an ICT Senior High student and now I am eager to become a Successful and a Skillful Web Developer</span>
+                    </div>
+                    <div class="education-info-cntr">
+                        <h1 class="info-titles">Where do i graduated?</h1>
+                        <span class="info-content">I graduated from the school of "Colegio De Montalban" with a degree of Bachelor of Science in Information Technology (BSIT). During my studies here I learned a lot about being a programmer, I actively participate in activities related to programming.</span>
+                    </div>
+                    <div class="my-goal-cntr">
+                        <h1 class="info-titles">What's my Goal?</h1>
+                        <span class="info-content">Despite being a beginner in this field, I aspire to learn more and improve my skills and abilities as a web developer so that I can help those who need my services and fulfill my role as a developer.</span>
+                    </div>
+                    <div class="soft-skills-cntr">
+                        <h1 class="info-titles">Soft Skills</h1>
+                        <span class="info-content">
+                            <div class="soft-skills-list" id="ss">
+                                <span><i class="fa-solid fa-check"></i> Problem-Solving</span>
+                                <span><i class="fa-solid fa-check"></i> Creativity</span>
+                                <span><i class="fa-solid fa-check"></i> Organize</span>
+                                <span><i class="fa-solid fa-check"></i> Attention To Details</span>
+                                <span><i class="fa-solid fa-check"></i> Flexible</span>
+                                <span><i class="fa-solid fa-check"></i> Teamwork</span>
+                                <span><i class="fa-solid fa-check"></i> Critical Thinking</span>
+                                <span><i class="fa-solid fa-check"></i> Active Listening</span>
+                                <span><i class="fa-solid fa-check"></i> Time Management</span>
+                                <span><i class="fa-solid fa-check"></i> Leadership</span>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="certifications-container">
+
+                </div>
+            </div>
+        </section>
+        
+        <div class="sample-div"></div>
+        <!-- Projects & Certifications Section -->
+        <section class="projects-section" id="projects-section">
+            <div class="projects-and-certification-cntr">
+                <div class="certification-cntr">
+                    <h1 class="title section-title  from-left-animation">CERTIFICATIONS</h1>
+                    <div class="certificates-cntr">
+
+                        <!-- Certificate 1 -->
+                        <div class="certificate">
+                            <div class="certificate-img-cntr">
+                                <img src="./Certificates/Responsive-Web-Design-Certification.png" alt="">
+                            </div>
+                            <div class="certificate-decription-cntr">
+                                <p class="certificate-name">Responsive Web Design</p>
+                                <a href="https://www.freecodecamp.org/certification/JerichoJayBBoboyo/responsive-web-design" target="_blank" class="certificate-link">Go to this certificate</a>
+                            </div>
+                        </div>
+
+                        <!-- Certificate 2 -->
+                        <div class="certificate">
+                            <div class="certificate-img-cntr">
+                                <img src="./Certificates/Javascript-daa-structure-and-algorithm-certificate.jfif" alt="">
+                            </div>
+                            <div class="certificate-decription-cntr">
+                                <p class="certificate-name">Javascript Algorithms and Data Structures</p>
+                                <a href="https://www.freecodecamp.org/certification/JerichoJayBBoboyo/javascript-algorithms-and-data-structures-v8" target="_blank" class="certificate-link">Go to this certificate</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="projects-cntr">
+                    <h1 class="title section-title  from-left-animation">PROJECTS</h1>
+                    <div class="demo-projects-main-cntr">
+
+                        <!-- Project 1 -->
+                        <div class="project">
+                            <span class="project-title">Chookbook</span>
+                            <div class="mockup-cntr">
+                                <div class="mockup-desktop"><img src="./ProjectMockupImages/ChookBook-Desktop-Mockup.png" alt=""></div>
+                                <div class="mockup-mobile"><img src="./ProjectMockupImages/ChookBook-Mobile-Mockup.png" alt=""></div>
+                            </div>
+                            <div class="language-and-tools-cntr">
+                                <span class="react react-span">REACT</span>
+                                <span class="css css-span">CSS</span>
+                                <span class="json- json-span">JSON</span>
+                            </div>
+                            <span class="project-info">Offer a variety of Filipino dishes that you can easily prepare at home. With the app guidance and support, you'll feel confident creating authentic meals, no matter your cooking experience.</span>
+                            <button type="button" class="web-link-btn">
+                                <a href="https://jerichojayboboyo.github.io/ChookBook/">View website
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+                            </button>
+                        </div>
+                        
+                        <div class="project-seperator"></div>
+                        <!-- Project 2 -->
+                        <div class="project">
+                            <span class="project-title">choffee</span>
+                            <div class="mockup-cntr">
+                                <div class="mockup-desktop">
+                                    <img src="./ProjectMockupImages/Choffee-Desktop-Mockup.png" alt="">
+                                </div>
+                                <div class="mockup-mobile">
+                                    <img src="./ProjectMockupImages/Choffee-Mobile-Mockup.png" alt="">
+                                </div>
+                            </div>
+                            <div class="language-and-tools-cntr">
+                                <span class="html html-span">HTML</span>
+                                <span class="css css-span">CSS</span>
+                                <span class="javascript javascript-span">JAVASCRIPT</span>
+                            </div>
+                            <span class="project-info">Choffee is a Japanese-themed coffee shop in the Philippines, founded by a Japanese entrepreneur. It aims to offer an authentic Japanese coffee experience, harmoniously combining the serene ambiance of Japanese culture with the welcoming warmth of Filipino hospitality.</span>
+                            <button type="button" class="web-link-btn">
+                                <a href="https://jerichojayboboyo.github.io/Choffee/" target="_blank">View website
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="project-seperator"></div>
+                        <!-- Project 3 -->
+                        <div class="project">
+                            <span class="project-title">pinnacle drive</span>
+                            <div class="mockup-cntr">
+                                <div class="mockup-desktop">
+                                    <img src="./ProjectMockupImages/Pinnacle-Drive-Desktop-Mockup.png" alt="">
+                                </div>
+                                <div class="mockup-mobile">
+                                    <img src="./ProjectMockupImages/Pinnacle-Drive-Mobile-Mockup.png" alt="">
+                                </div>
+                            </div>
+                            <div class="language-and-tools-cntr">
+                                <span class="html html-span">HTML</span>
+                                <span class="css css-span">CSS</span>
+                                <span class="javascript javascript-span">JAVASCRIPT</span>
+                                <span class="sass sass-span">SASS</span>
+                            </div>
+                            <span class="project-info">
+                                Pinnacle Drive is a specialized rent-a-car service offering a single, meticulously maintained vehicle with an experienced driver included. Our focus on quality and personalized service ensures a smooth and enjoyable journey for every customer. With our commitment to reliability and exceptional care, Pinnacle Drive provides a unique and dependable transportation solution.</span>
+                            <button type="button" class="web-link-btn">
+                                <a href="https://jerichojayboboyo.github.io/Pinnacle-Drive/" target="_blank">View website
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact-section">
+            <div class="contact-cntr">
+                <h1 class="section-title  from-left-animation">Connect with me</h1>
+                <div class="contact-list-cntr">
+
+                    <!-- Contact Facebook -->
+                    <div class="contact">
+                        <div class="img-contact-cntr">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="contact-details-cntr">
+                            <span class="contact-title">Facebook</span>
+                            <a href="https://www.facebook.com/JJBB.24/" target="_blank">https://www.facebook.com/JJBB.24/</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Gmail -->
+                    <div class="contact">
+                        <div class="img-contact-cntr">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-details-cntr">
+                            <span class="contact-title">Email</span>
+                            <a href="mailto:jerichojay24boboyo@gmail.com" target="_blank">jerichojay24boboyo@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Messenger -->
+                    <div class="contact">
+                        <div class="img-contact-cntr">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                        <div class="contact-details-cntr">
+                            <span class="contact-title">Messenger</span>
+                            <a href="https://m.me/JJBB.24" target="_blank">Jericho Jay Boboyo</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Mobile Phone -->
+                    <div class="contact">
+                        <div class="img-contact-cntr">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contact-details-cntr">
+                            <span class="contact-title">Mobile Number</span>
+                            <a href="tel:+639503840558" target="_blank">(+63)9503840558</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hire-me-cntr">
+                    <button class="hire-me-button"><a href="mailto:jerichojay24boboyo@gmail.com">Hire me!</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-icons-btn">
+            <a href="https://www.facebook.com/JJBB.24/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://m.me/JJBB.24" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
+            <a href="mailto:jerichojay24boboyo@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+639503840558" target="_blank"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <span class="copyright">&copy; JJBB 2024</span>
+    </footer>
+    <script defer src="JJBBportfolio.js"></script>
+</body>
+</html>
